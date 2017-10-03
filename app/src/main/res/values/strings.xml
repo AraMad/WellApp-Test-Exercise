@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestApp</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="item_text">Some text</string>
+    <string name="do_request_button_text">Do request</string>
+    <string name="permission_button_text">Request group permission</string>
+    <string name="toast_permission_text">Permission request OK</string>
+    <string name="dialog_permission_title">Request result</string>
+    <string name="dialog_permission_text">Permissions not granted</string>
+    <string name="dialog_permission_button_text">OK</string>
+    <string name="menu_action0_title">Action 0</string>
+    <string name="menu_action1_title">Action 1</string>
+    <string name="menu_action2_title">Action 2</string>
+</resources>
