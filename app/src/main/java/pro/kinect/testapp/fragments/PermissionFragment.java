@@ -2,7 +2,6 @@ package pro.kinect.testapp.fragments;
 
 import android.Manifest;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -32,8 +31,7 @@ public class PermissionFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                ActivityCompat.requestPermissions(getActivity(),
-                        new String[] {
+                requestPermissions(new String[] {
                                 Manifest.permission.READ_CONTACTS,
                                 Manifest.permission.ACCESS_FINE_LOCATION,
                                 Manifest.permission.ACCESS_COARSE_LOCATION,
